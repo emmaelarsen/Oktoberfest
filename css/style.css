@@ -1,0 +1,81 @@
+/**
+ * file: style.css
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+
+
+/* GENERALT */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans serif;
+    background: #250d08;
+    color: #fff;
+        }
+
+
+/* HERO IMAGE */
+.bg img {
+position: relative;
+z-index: -1;
+}
+
+
+header img {
+position: absolute;
+justify-content: center;
+min-width: 350px;
+margin-top: -50px;
+}
+
+
+.tekst {
+position: absolute;
+background-color: rgba(100, 255, 100, 0.2);
+padding: 40px;
+margin-top: -55%;
+margin-left: 70%;
+border-radius: 30px;
+}
+
+.tekst h1 {
+font-size: 50px;
+
+}
+
+.tekst h2 {
+line-height: 1.9;
+font-size: 30px;
+}
+
+
+.mapweather img {
+background-image: 
+
+}
+
+
+/* MAP */
+#map {
+width: 800px;
+height: 600px;
+margin-top: 400px;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.mapbox h2 {
+margin-bottom: -50px;
+}
+
+.weather {
+margin-top: -250px;    
+
+}
+#result img {
+min-width: 150px;
+margin-bottom: 50px;
+}
